@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+    <meta charset=“UTP-18” />
+		<meta name=“viewport”
+			content=“width=device-width,
+			initial-scale=1”  />
+            </head>
+<body>
+    <main>
+    <div style="background-color: antiquewhite;">
+    <header style="color:red;"Campus notices></header>
+</div>
+<form action="/api/notices" method="post">
+    <label for="title">Campus Notices</label>
+    
+<input id="title" name="title"
+type="text" required/>
+
+<label for="msg">Message</label>
+<textarea id="msg" name="message"></textarea>
+
+<button type="submit">Post notice</button>
+</form>
+
